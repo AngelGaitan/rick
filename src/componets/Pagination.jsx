@@ -10,7 +10,7 @@ const Pagination = ({ perPage, page, setPage, totalCards }) => {
     pageNumbers.push(i);
   };
 
-  const [visijblePageNumbers, setVisiblePageNumbers] = useState(pageNumbers.slice(0, 5))
+  const [visiblePageNumbers, setVisiblePageNumbers] = useState(pageNumbers.slice(0, 5))
 
   const onPreviousPage = () => {
     const previousPage = page - 1;
