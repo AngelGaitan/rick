@@ -1,0 +1,64 @@
+body{
+    background-color: #1A262A;
+    color: aliceblue;
+}
+
+.resident_container{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.id-container{
+    display: flex;
+    gap: 6px;
+    padding: 1rem;
+    justify-content: center;
+}
+
+
+.location{
+    margin: 0 auto;
+   margin-bottom: 30px;
+    text-align: center;
+    background-color: #1A262A;
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+
+}
+
+.location-title{
+    width: 100%;
+    padding: 10px;
+    color: green;
+    font-size: 2rem;
+}
+
+.location-info{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.location-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.location-span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green ;
+    padding: 5px;
+}
+
+.image1{
+    width: 100%;
+    
+    object-fit: fill;
+}

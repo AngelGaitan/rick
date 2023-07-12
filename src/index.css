@@ -1,0 +1,41 @@
+
+
+
+:root{
+    --bg-card:#1A262A;
+    --color-green: rgb(8, 221, 8);
+}
+
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p, ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+html{
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+input, button{
+    font-family: inherit;
+    border: none;
+}
+
+button{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+img{
+    display: block;
+}

@@ -1,0 +1,18 @@
+.pagination{
+    margin: 0 auto;
+    padding: 4rem;
+    width: 80%;
+}
+
+.pagination-link{
+    background-color: var(--bg-card) ;
+    border: none;
+    margin: 6px;
+    box-shadow: 0 0 10px black;
+    color: white;
+
+}
+
+.pagination-link.is-current{
+    background-color: var(--color-green);
+}
